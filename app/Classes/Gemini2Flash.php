@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Log;
  * API documentation: https://aistudio.google.com/app/apikey
  */
 class Gemini2Flash {
-    private $_gemini_base_url;
-
     public function __construct()
     {
         $this->_gemini_url = env('GEMINI_URL');
